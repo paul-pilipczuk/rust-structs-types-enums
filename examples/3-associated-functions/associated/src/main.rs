@@ -5,6 +5,8 @@ struct User {
     active: bool,
 }
 
+// Impl is the implementation key word for
+// associated the 'new' function and the 'deactivate' method for the User struct.
 impl User {
     fn new(username: String, email: String, uri: String) -> Self {
         Self {
