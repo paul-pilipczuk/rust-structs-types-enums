@@ -15,7 +15,7 @@ fn modifiable() {
 
 fn main() {
     // slices and vectors are similar. But slices are immutable depending on how they are borrowed
-    //ownership();
+    // ownership();
     modifiable();
 }
 
