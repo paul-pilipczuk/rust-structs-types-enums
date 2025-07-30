@@ -31,8 +31,15 @@ fn main() {
         region: WineRegions::Tuscany,
     };
 
+    let wine3 = Wine{
+        name: String::from("new wine"),
+        region: WineRegions::Rioja,
+
+    };
+
     // println!("Wine 1: {} from {:?}", wine1.name, wine1.region);
     // println!("Wine 2: {} from {:?}", wine2.name, wine2.region);
+    println!("Wine 3: {} from {:?}", wine3.name, wine3.region);
     supported_regions(wine1.region);
-    supported_regions(WineRegions::Rioja);
+    supported_regions(wine3.region);
 }
